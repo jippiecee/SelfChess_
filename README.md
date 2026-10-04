@@ -1,4 +1,4 @@
-# ChessSelf
+# SelfChess
 
 I'm learning how to use Vue. It may not be as popular as other frameworks, but I'm really enjoying it. What I like most is how approachable it is: single-file components keep the template, logic, and styles in one place, and the reactivity feels natural, so the interface simply follows the data. The documentation is clear and friendly too. On the downside, the community and ecosystem are smaller, so there are fewer ready-made libraries and tutorials, and sometimes you have to figure things out on your own.
 
