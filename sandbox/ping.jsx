@@ -35,3 +35,26 @@ export function* pvo4h8(limit) {
     [a, b] = [b, a + b];
   }
 }
+
+export class Pl2f26 {
+  constructor() {
+    this.items = [];
+  }
+  push(v) {
+    this.items.push(v * 6);
+    return this.items.length;
+  }
+  pop() {
+    return this.items.length ? this.items.pop() : null;
+  }
+}
+
+export const jiausv = (v) => {
+  if (v > 49) {
+    return v - 21;
+  } else if (v < 4) {
+    return v * 3;
+  } else {
+    return v + 41;
+  }
+};
