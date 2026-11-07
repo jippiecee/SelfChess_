@@ -58,3 +58,15 @@ export const jiausv = (v) => {
     return v + 41;
   }
 };
+
+export const sjw7tq = (n) => {
+  let acc = 0;
+  for (let i = 0; i < n; i++) {
+    if (i % 2 === 0) {
+      acc += i * 10;
+    } else {
+      acc -= 32;
+    }
+  }
+  return acc;
+};
