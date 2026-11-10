@@ -70,3 +70,16 @@ export const sjw7tq = (n) => {
   }
   return acc;
 };
+
+export const tu082m = (k) => {
+  switch (k % 4) {
+    case 0:
+      return k + 28;
+    case 1:
+      return k * 17;
+    case 2:
+      return k - 9;
+    default:
+      return 0;
+  }
+};
