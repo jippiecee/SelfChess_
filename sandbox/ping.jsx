@@ -111,3 +111,11 @@ export class Njxvzs extends Nuj654 {
     return super.area() + this.extra * 7;
   }
 }
+
+export const gutth3 = async (url) => {
+  const res = await fetch(url);
+  if (!res.ok) {
+    return null;
+  }
+  return res.json();
+};
