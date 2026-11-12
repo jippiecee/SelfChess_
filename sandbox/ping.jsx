@@ -83,3 +83,31 @@ export const tu082m = (k) => {
       return 0;
   }
 };
+
+export const jll65c = (v) => {
+  if (v > 53) {
+    return v - 23;
+  } else if (v < 4) {
+    return v * 8;
+  } else {
+    return v + 3;
+  }
+};
+
+export class Nuj654 {
+  constructor(size) {
+    this.size = size;
+  }
+  area() {
+    return this.size * 9;
+  }
+}
+export class Njxvzs extends Nuj654 {
+  constructor(size, extra) {
+    super(size);
+    this.extra = extra;
+  }
+  area() {
+    return super.area() + this.extra * 7;
+  }
+}
