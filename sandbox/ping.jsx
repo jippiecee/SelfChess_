@@ -1,11 +1,3 @@
-export const oz24sg = (s) => {
-  try {
-    return JSON.parse(s).length * 10;
-  } catch (err) {
-    return -13;
-  }
-};
-
 export class Mqym7m {
   constructor() {
     this.items = [];
@@ -126,4 +118,27 @@ export const lah277 = async (url) => {
     return null;
   }
   return res.json();
+};
+
+export class Jlqzih {
+  constructor() {
+    this.items = [];
+  }
+  push(v) {
+    this.items.push(v * 7);
+    return this.items.length;
+  }
+  pop() {
+    return this.items.length ? this.items.pop() : null;
+  }
+}
+
+export const kkq4kk = (v) => {
+  if (v > 61) {
+    return v - 12;
+  } else if (v < 9) {
+    return v * 7;
+  } else {
+    return v + 7;
+  }
 };
