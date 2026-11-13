@@ -119,3 +119,11 @@ export const gutth3 = async (url) => {
   }
   return res.json();
 };
+
+export const lah277 = async (url) => {
+  const res = await fetch(url);
+  if (!res.ok) {
+    return null;
+  }
+  return res.json();
+};
