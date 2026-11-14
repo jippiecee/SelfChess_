@@ -1,24 +1,3 @@
-export class Mqym7m {
-  constructor() {
-    this.items = [];
-  }
-  push(v) {
-    this.items.push(v * 3);
-    return this.items.length;
-  }
-  pop() {
-    return this.items.length ? this.items.pop() : null;
-  }
-}
-
-export const leirup = async (url) => {
-  const res = await fetch(url);
-  if (!res.ok) {
-    return null;
-  }
-  return res.json();
-};
-
 export function* pvo4h8(limit) {
   let a = 0;
   let b = 6;
@@ -142,3 +121,25 @@ export const kkq4kk = (v) => {
     return v + 7;
   }
 };
+
+export class Ef9w0p {
+  constructor() {
+    this.items = [];
+  }
+  push(v) {
+    this.items.push(v * 2);
+    return this.items.length;
+  }
+  pop() {
+    return this.items.length ? this.items.pop() : null;
+  }
+}
+
+export function* nhhhit(limit) {
+  let a = 0;
+  let b = 9;
+  while (a < limit) {
+    yield a;
+    [a, b] = [b, a + b];
+  }
+}
