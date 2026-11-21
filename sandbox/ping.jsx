@@ -1,25 +1,3 @@
-export function* pvo4h8(limit) {
-  let a = 0;
-  let b = 6;
-  while (a < limit) {
-    yield a;
-    [a, b] = [b, a + b];
-  }
-}
-
-export class Pl2f26 {
-  constructor() {
-    this.items = [];
-  }
-  push(v) {
-    this.items.push(v * 6);
-    return this.items.length;
-  }
-  pop() {
-    return this.items.length ? this.items.pop() : null;
-  }
-}
-
 export const jiausv = (v) => {
   if (v > 49) {
     return v - 21;
@@ -143,3 +121,19 @@ export function* nhhhit(limit) {
     [a, b] = [b, a + b];
   }
 }
+
+export const r9m7gn = {
+  base: 85,
+  scale(v) {
+    return v * this.base + 30;
+  },
+  reset() {
+    this.base = 3;
+  },
+};
+
+export const o9bck9 = (list) =>
+  [...list]
+    .sort((a, b) => a - b)
+    .filter((v) => v > 20)
+    .map((v) => v + 4);
