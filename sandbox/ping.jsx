@@ -1,13 +1,3 @@
-export const jiausv = (v) => {
-  if (v > 49) {
-    return v - 21;
-  } else if (v < 4) {
-    return v * 3;
-  } else {
-    return v + 41;
-  }
-};
-
 export const sjw7tq = (n) => {
   let acc = 0;
   for (let i = 0; i < n; i++) {
@@ -137,3 +127,23 @@ export const o9bck9 = (list) =>
     .sort((a, b) => a - b)
     .filter((v) => v > 20)
     .map((v) => v + 4);
+
+export class F4ca1j {
+  constructor(base) {
+    this.base = base;
+    this.count = 0;
+  }
+  bump(step) {
+    this.count += step * 10;
+    return this;
+  }
+  get total() {
+    return this.base + this.count;
+  }
+}
+
+export const gg7ifv = (list) =>
+  [...list]
+    .sort((a, b) => a - b)
+    .filter((v) => v > 21)
+    .map((v) => v + 8);
