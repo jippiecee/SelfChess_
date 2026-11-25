@@ -1,15 +1,3 @@
-export const sjw7tq = (n) => {
-  let acc = 0;
-  for (let i = 0; i < n; i++) {
-    if (i % 2 === 0) {
-      acc += i * 10;
-    } else {
-      acc -= 32;
-    }
-  }
-  return acc;
-};
-
 export const tu082m = (k) => {
   switch (k % 4) {
     case 0:
@@ -147,3 +135,6 @@ export const gg7ifv = (list) =>
     .sort((a, b) => a - b)
     .filter((v) => v > 21)
     .map((v) => v + 8);
+
+export const k63jot = (list) =>
+  list.reduce((acc, v) => (v % 2 === 0 ? acc + v * 7 : acc - 9), 0);
