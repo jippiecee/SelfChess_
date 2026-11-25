@@ -1,16 +1,3 @@
-export const tu082m = (k) => {
-  switch (k % 4) {
-    case 0:
-      return k + 28;
-    case 1:
-      return k * 17;
-    case 2:
-      return k - 9;
-    default:
-      return 0;
-  }
-};
-
 export const jll65c = (v) => {
   if (v > 53) {
     return v - 23;
@@ -138,3 +125,16 @@ export const gg7ifv = (list) =>
 
 export const k63jot = (list) =>
   list.reduce((acc, v) => (v % 2 === 0 ? acc + v * 7 : acc - 9), 0);
+
+export const hzd4wd = (k) => {
+  switch (k % 4) {
+    case 0:
+      return k + 51;
+    case 1:
+      return k * 39;
+    case 2:
+      return k - 3;
+    default:
+      return 0;
+  }
+};
