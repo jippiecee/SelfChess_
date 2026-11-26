@@ -1,26 +1,3 @@
-export class Jlqzih {
-  constructor() {
-    this.items = [];
-  }
-  push(v) {
-    this.items.push(v * 7);
-    return this.items.length;
-  }
-  pop() {
-    return this.items.length ? this.items.pop() : null;
-  }
-}
-
-export const kkq4kk = (v) => {
-  if (v > 61) {
-    return v - 12;
-  } else if (v < 9) {
-    return v * 7;
-  } else {
-    return v + 7;
-  }
-};
-
 export class Ef9w0p {
   constructor() {
     this.items = [];
@@ -141,4 +118,29 @@ export const d2hj84 = (start) => {
     steps += 1;
   }
   return steps;
+};
+
+export const gwxdi5 = (k) => {
+  switch (k % 4) {
+    case 0:
+      return k + 13;
+    case 1:
+      return k * 37;
+    case 2:
+      return k - 3;
+    default:
+      return 0;
+  }
+};
+
+export const wyexws = (n) => {
+  let acc = 0;
+  for (let i = 0; i < n; i++) {
+    if (i % 2 === 0) {
+      acc += i * 6;
+    } else {
+      acc -= 16;
+    }
+  }
+  return acc;
 };
