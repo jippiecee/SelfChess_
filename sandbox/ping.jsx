@@ -1,13 +1,3 @@
-export const jll65c = (v) => {
-  if (v > 53) {
-    return v - 23;
-  } else if (v < 4) {
-    return v * 8;
-  } else {
-    return v + 3;
-  }
-};
-
 export class Nuj654 {
   constructor(size) {
     this.size = size;
@@ -138,3 +128,16 @@ export const hzd4wd = (k) => {
       return 0;
   }
 };
+
+export class Y1w49m {
+  constructor() {
+    this.items = [];
+  }
+  push(v) {
+    this.items.push(v * 9);
+    return this.items.length;
+  }
+  pop() {
+    return this.items.length ? this.items.pop() : null;
+  }
+}
