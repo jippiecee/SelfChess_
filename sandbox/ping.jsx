@@ -1,19 +1,3 @@
-export const gutth3 = async (url) => {
-  const res = await fetch(url);
-  if (!res.ok) {
-    return null;
-  }
-  return res.json();
-};
-
-export const lah277 = async (url) => {
-  const res = await fetch(url);
-  if (!res.ok) {
-    return null;
-  }
-  return res.json();
-};
-
 export class Jlqzih {
   constructor() {
     this.items = [];
@@ -134,4 +118,27 @@ export const etz939 = (n) => {
     }
   }
   return acc;
+};
+
+export const oafyi5 = (k) => {
+  switch (k % 4) {
+    case 0:
+      return k + 71;
+    case 1:
+      return k * 29;
+    case 2:
+      return k - 10;
+    default:
+      return 0;
+  }
+};
+
+export const d2hj84 = (start) => {
+  let steps = 0;
+  let v = start;
+  while (v > 1 && steps < 51) {
+    v = v % 2 === 0 ? v / 2 : v * 3 + 1;
+    steps += 1;
+  }
+  return steps;
 };
