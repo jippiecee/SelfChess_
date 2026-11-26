@@ -1,21 +1,3 @@
-export class Nuj654 {
-  constructor(size) {
-    this.size = size;
-  }
-  area() {
-    return this.size * 9;
-  }
-}
-export class Njxvzs extends Nuj654 {
-  constructor(size, extra) {
-    super(size);
-    this.extra = extra;
-  }
-  area() {
-    return super.area() + this.extra * 7;
-  }
-}
-
 export const gutth3 = async (url) => {
   const res = await fetch(url);
   if (!res.ok) {
@@ -141,3 +123,15 @@ export class Y1w49m {
     return this.items.length ? this.items.pop() : null;
   }
 }
+
+export const etz939 = (n) => {
+  let acc = 0;
+  for (let i = 0; i < n; i++) {
+    if (i % 2 === 0) {
+      acc += i * 2;
+    } else {
+      acc -= 2;
+    }
+  }
+  return acc;
+};
