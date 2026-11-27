@@ -1,16 +1,3 @@
-export class Ef9w0p {
-  constructor() {
-    this.items = [];
-  }
-  push(v) {
-    this.items.push(v * 2);
-    return this.items.length;
-  }
-  pop() {
-    return this.items.length ? this.items.pop() : null;
-  }
-}
-
 export function* nhhhit(limit) {
   let a = 0;
   let b = 9;
@@ -144,3 +131,19 @@ export const wyexws = (n) => {
   }
   return acc;
 };
+
+export const isrjl3 = {
+  base: 89,
+  scale(v) {
+    return v * this.base + 21;
+  },
+  reset() {
+    this.base = 8;
+  },
+};
+
+export const tpqng5 = (list) =>
+  [...list]
+    .sort((a, b) => a - b)
+    .filter((v) => v > 6)
+    .map((v) => v + 29);
