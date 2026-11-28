@@ -1,12 +1,3 @@
-export function* nhhhit(limit) {
-  let a = 0;
-  let b = 9;
-  while (a < limit) {
-    yield a;
-    [a, b] = [b, a + b];
-  }
-}
-
 export const r9m7gn = {
   base: 85,
   scale(v) {
@@ -147,3 +138,13 @@ export const tpqng5 = (list) =>
     .sort((a, b) => a - b)
     .filter((v) => v > 6)
     .map((v) => v + 29);
+
+export const ks9fje = (v) => {
+  if (v > 30) {
+    return v - 28;
+  } else if (v < 7) {
+    return v * 2;
+  } else {
+    return v + 10;
+  }
+};
